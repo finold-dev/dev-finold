@@ -1,0 +1,50 @@
+
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial}
+  body{background:#0a0a0a;color:#eee;line-height:1.6}
+  .container{max-width:900px;margin:0 auto;padding:20px
+  }
+  header{text-align:center;padding:60px 20px}
+  header img{width:180px;height:180px;border-radius:50%;border:3px solid #fff;object-fit:cover}
+  h1{margin-top:20px;font-size:32px}
+  .tag{color:#888;margin:8px 0}
+  .btns{margin-top:20px}
+  .btns a{display:inline-block;margin:5px;padding:10px 20px;border:1px solid #333;border-radius:25px;color:#fff;text-decoration:none}
+  .btns a:hover{background:#fff;color:#000}
+  section{margin:60px 0}
+  h2{border-left:3px solid #fff;padding-left:12px;margin-bottom:20px}
+  .card{background:#141414;border:1px solid #222;padding:20px;border-radius:12px;margin-bottom:15px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+  @media(max-width:600px){.grid{grid-template-columns:1fr}}
+  footer{text-align:center;padding:40px;color:#555}
+  .btnpro{
+    background: #141414; border: 1px solid #555;
+    border-radius: 5px;
+    padding-block: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 1,2s;
+  }
+  .p1{
+    max-width:500px;margin:15px auto;color:#aaa>
+  }
+  .p2{
+    
+  }
+  .btnpro:hover{
+    background: white;
+    color:black;
+    padding: 20px;
+    border: 2px dotted white;
+    text-align:center;
+  }
+  
+  @keyframes body{
+    from{ background-color:#890000; }
+    to{ background-color:#997665; }
+  }
+  .container{
+    max-width: 900px;margin: 0 auto; padding: 20px;
+    background-color: #0a0a0a;
+    animation-name: body;
+    animation-duration: 10s;
+  }
