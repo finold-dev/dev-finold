@@ -48,3 +48,13 @@
     animation-name: body;
     animation-duration: 10s;
   }
+.card a{
+ background: #141414; border: 1px solid #555;
+    border-radius: 5px;
+    padding-block: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 1,2s;
+}
+ 
+
